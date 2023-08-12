@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color:#777;
+}
+.img-1, .img-2, .img-3, .img-4{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-1{
+    background-image: url('Img/chris-liverani-ViEBSoZH6M4-unsplash.jpg');
+    min-height: 100vh;
+}
+.img-2{
+    background-image: url('Img/thisisengineering-raeng-fgdmH3iqvMw-unsplash.jpg');
+    min-height: 60vh;
+}
+.img-3{
+    background-image: url('Img/scott-graham-5fNmWej4tAA-unsplash.jpg');
+    min-height: 60vh;
+}
+.img-4{
+    background-image: url('Img/thisisengineering-raeng-GzDrm7SYQ0g-unsplash.jpg');
+    min-height: 60vh;
+}
+.caption-text{
+    position:absolute;
+    left:0;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color:#000;
+}
+.caption-text span.border{
+    background-color: #111;
+    color:#fff;
+    padding:18px;
+    font-size: 28px;
+    letter-spacing: 10px;
+    text-transform:uppercase;
+}
+.caption-text span.border-2{
+    background-color: transparent;
+    font-size: 25px;
+    color: #f7f7f7;
+}
+.buffer-zone-1{
+    color:#777;
+    background-color: white;
+    text-align: center;
+    padding:50px 80px;
+    text-align: justify;
+}
+.buffer-zone-1 h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.buffer-zone-1 strong{
+    text-transform: uppercase;
+}
+.buffer-zone-2{
+    position:relative;
+}
+.buffer-zone-2 div{
+    color:#ddd;
+    background-color: #2e2e28;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
